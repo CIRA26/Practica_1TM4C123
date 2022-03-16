@@ -1,6 +1,5 @@
-//Práctica 1 editada, para que sea práctica 2? 
-//Copiar simepore el archivo .ld ya que ese hace el .axf y el .bin
-//Asegurazse bien de los nombres al copiar los clonados para edición
+//Práctica 1 clonada del git del profe
+//Solamente se clon´+o y corrió, y se subió al git
 
 
 #include "lib/include.h"
@@ -8,8 +7,8 @@
 unsigned long Led;
 
 void Delay(void){unsigned long volatile time;
- //time = 180000000;  //Para qeu tarde un buen
-  time = 800000;  //Para que sea muy rápido el cambio de colorcitos uwu
+ 
+  time = 1600000;  //cambio de colo como lo tenía el profe
   while(time){
 		time--;
   }
